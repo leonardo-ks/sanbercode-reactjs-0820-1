@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/pattern.jpg')
+}
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+img {
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+nav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+ul {
+    list-style: none;
+}
+section {
+    background-color: white;
+}
+#article-list div{
+    margin: 1rem 0.4rem;
+    border-bottom: outset;
+} 
+h1 {
+    text-align: center;
+}
+.container {
+    margin: auto;
+    margin-top: 3.5rem;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+footer {
+    padding-top: 1px ;
+    padding-bottom: 1px ;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
