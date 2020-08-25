@@ -2,7 +2,6 @@ body {
     background-image: url('../img/pattern.jpg')
 }
 nav {
-    overflow: unset;
     position: fixed;
     top: 0;
     right: 0;
@@ -21,7 +20,7 @@ nav a {
     text-align: center;
     padding-right: 1rem;
     padding-bottom: 1rem;
-  }
+}
 ul {
     list-style: none;
 }
@@ -47,4 +46,4 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-  }
+}
